@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wochenberichte 2025/2026, Latifa Ali, Lernende Informatikerin EFZ Applikationsentwicklung</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+  <meta name="msapplication-TileImage" content="favicon.png">
+</head>
+
+<body>
+
+  <!-- - - - - - - - - - - - Kopfzeile Start - - - - - - - - - - - -->
+  <header class="fade-in-up">
+
+    <!-- Logo Start -->
+    <a href="index.html">
+      <div class="logo">
+        <img src="images/foto_small_500x500px.jpg">
+      </div>
+    </a>
+    <!-- Logo Ende -->
+
+    <!-- Text Start -->
+    <div class="titel">
+      <h1>Wochenberichte 2025/2026</h1>
+      Latifa Ali<br>
+      Lernende Informatikerin EFZ Applikationsentwicklung
+    </div>
+    <!-- Text Ende -->
+
+    <!-- Navigation Start -->
+    <nav>
+      <div class="arrow"><a href="kw_36_20XX.html" title="Back"><img src="images/arrow_back.png"></a></div>
+      <div class="overview"><a href="index.html" title="Overview"><img src="images/hamburger.png"></a></div>
+      <div class="arrow"><a href="kw_35_20XX.html" title="Next"><img src="images/arrow_next.png"></a></div>
+    </nav>
+    <!-- Navigation Ende -->
+
+  </header>
+  <!-- - - - - - - - - - - - Kopfzeile Ende - - - - - - - - - - - -->
+
+  <!-- - - - - - - - - - - - Inhalt Start - - - - - - - - - - - -->
+  <main>
+
+    <!-- - - - - - - - - - - - Erste Spalte Start - - - - - - - - - - - -->
+    <section class="fade-in-up">
+      <h2>1. Semester 2025/2026</h2>
+      <hr>
+      <a href="kw_35_20XX.html"><strong>KW 35 </strong>Titel Wochenthema/en lorem sit amet</a><br>
+      <a href="kw_36_20XX.html"><strong>KW 35 </strong>Titel Wochenthema/en lorem sit amet</a><br>
+     <br>
+     <br>
+     <br>
+      <a href=""><strong>… </strong><br></a>
+      <hr>
+    </section>
+    <!-- - - - - - - - - - - - Erste Spalte Ende - - - - - - - - - - - -->
+
+    <!--- - - - - - - - - - - Zweite Spalte Start - - - - - - - - - - - -->
+    <section class="fade-in-up">
+      <h2>2. Semester 2026</h2>
+    
+      <hr>
+      
+      <hr>
+      <h2>Noten</h2>
+      <hr>
+      <a href=""><strong>1. Lehrjahr</strong></a>
+      <hr>
+    </section>
+    <!-- - - - - - - - - - - - Zweite Spalte Ende - - - - - - - - - - - -->
+
+  </main>
+  <!-- - - - - - - - - - - - Inhalt Ende - - - - - - - - - - - -->
+
+
+  <!-- - - - - - - - - - - - Fusszeile Start - - - - - - - - - - - -->
+  <footer class="fade-in-up">
+    <strong>Wochenberichte 2025/2026</strong><br>
+    Latifa Ali<br>
+    Lernende Informatikerin EFZ Applikationsentwicklung
+  </footer>
+  <!-- - - - - - - - - - - - Fusszeile Ende - - - - - - - - - - - -->
+
+  <script src="js/fadein.js"></script>
+</body>
+
+</html>

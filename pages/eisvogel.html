@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Eisvogel — Tierwelt</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <div class="logo">TW</div>
+        <div>
+          <h1 style="margin:0;font-size:1.05rem">Eisvogel</h1>
+          <div style="font-size:0.85rem;color:#6b7280">Alcedinidae</div>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="../index.html">Start</a>
+
+      </nav>
+    </header>
+
+    <main>
+      <article class="card">
+        <img src="../assets/eisvogel.jpg" alt="Eisvogel">
+        <h2>Eisvogel</h2>
+        <p class="lead">Kleine, bunte Vogelart, die an klaren Gewässern auf Fischjagd geht.</p>
+
+        <h3>Kurzfakten</h3>
+        <ul>
+          <li>Wissenschaftlicher Name: <em>Alcedinidae</em></li>
+          <li>Lebensraum: Ufer von Flüssen und Seen</li>
+          <li>Ernährung: Fische, Insekten</li>
+        </ul>
+
+        <h3>Größen &amp; Eigenschaften</h3>
+        <table class="spec-table">
+          <tr><th>Größe</th><td>Länge ca. 16–17 cm</td></tr>
+          <tr><th>Gewicht</th><td>ca. 30–50 g</td></tr>
+          <tr><th>Besonderheit</th><td>Leuchtende Gefiederfarben</td></tr>
+        </table>
+
+        <h3>Galerie</h3>
+        <div class="gallery">
+          <img src="../assets/eisvogel.jpg" alt="Eisvogel 1">
+          <img src="../assets/eisvogel.jpg" alt="Eisvogel 2">
+          <img src="../assets/eisvogel.jpg" alt="Eisvogel 3">
+        </div>
+
+        <blockquote style="margin:0.8rem 0;padding:0.6rem;border-left:4px solid #1f8a70;background:#f8fffb">
+          „Ein kleiner Blitz an jedem Bachufer.“
+        </blockquote>
+
+        <p style="margin-top:0.8rem">Weiterführende Links: <a href="https://de.wikipedia.org/wiki/Eisvogel" target="_blank" rel="noopener">Wikipedia — Eisvogel</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div>Zurück: <a href="../index.html">Alle Tiere</a></div>
+      <small>© <span id="year"></span> Tierwelt</small>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Jaguar — Tierwelt</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <div class="logo">TW</div>
+        <div>
+          <h1 style="margin:0;font-size:1.05rem">Jaguar</h1>
+          <div style="font-size:0.85rem;color:#6b7280">Panthera onca</div>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="../index.html">Start</a>
+
+      </nav>
+    </header>
+
+    <main>
+      <article class="card">
+        <img src="../assets/jaguar.jpg" alt="Jaguar">
+        <h2>Jaguar</h2>
+        <p class="lead">Der Jaguar ist eine große Katze Südamerikas: massiv gebaut, ausgezeichnete Schwimmer und Jäger.</p>
+
+        <h3>Kurzfakten</h3>
+        <ul>
+          <li>Wissenschaftlicher Name: <em>Panthera onca</em></li>
+          <li>Lebensraum: Regenwald, Galeriewälder, Sumpfgebiete</li>
+          <li>Ernährung: Fleischfresser (Affe, Fisch, Tapir etc.)</li>
+        </ul>
+
+        <h3>Größen &amp; Eigenschaften</h3>
+        <table class="spec-table">
+          <tr><th>Größe</th><td>1–1.8 m Körperlänge</td></tr>
+          <tr><th>Gewicht</th><td>56–96 kg</td></tr>
+          <tr><th>Besonderheit</th><td>Starke Kiefer; kann Schädel durchbeißen</td></tr>
+        </table>
+
+        <h3>Galerie</h3>
+        <div class="gallery">
+          <img src="../assets/jaguar.jpg" alt="Jaguar 1">
+          <img src="../assets/jaguar.jpg" alt="Jaguar 2">
+          <img src="../assets/jaguar.jpg" alt="Jaguar 3">
+        </div>
+
+        <blockquote style="margin:0.8rem 0;padding:0.6rem;border-left:4px solid #1f8a70;background:#f8fffb">
+          „Der Jaguar ist der heimliche König des amerikanischen Regenwaldes.“
+        </blockquote>
+
+        <p style="margin-top:0.8rem">Weiterführende Links: <a href="https://de.wikipedia.org/wiki/Jaguar" target="_blank" rel="noopener">Wikipedia — Jaguar</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div>Zurück: <a href="../index.html">Alle Tiere</a></div>
+      <small>© <span id="year"></span> Tierwelt</small>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

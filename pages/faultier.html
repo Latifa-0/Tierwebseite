@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Faultier — Tierwelt</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <div class="logo">TW</div>
+        <div>
+          <h1 style="margin:0;font-size:1.05rem">Faultier</h1>
+          <div style="font-size:0.85rem;color:#6b7280">Folivora</div>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="../index.html">Start</a>
+
+      </nav>
+    </header>
+
+    <main>
+      <article class="card">
+        <img src="../assets/faultier.jpg" alt="Faultier">
+        <h2>Faultier</h2>
+        <p class="lead">Langsamer Baumbewohner, passt Stoffwechsel an spärliche Nahrung an.</p>
+
+        <h3>Kurzfakten</h3>
+        <ul>
+          <li>Wissenschaftlicher Name: <em>Folivora</em></li>
+          <li>Lebensraum: Regenwälder Mittel- und Südamerikas</li>
+          <li>Ernährung: Blätter, Knospen</li>
+        </ul>
+
+        <h3>Größen &amp; Eigenschaften</h3>
+        <table class="spec-table">
+          <tr><th>Größe</th><td>Körperlänge ca. 50–70 cm</td></tr>
+          <tr><th>Gewicht</th><td>3–8 kg</td></tr>
+          <tr><th>Besonderheit</th><td>Sehr langsamer Stoffwechsel, lebt oft kopfüber</td></tr>
+        </table>
+
+        <h3>Galerie</h3>
+        <div class="gallery">
+          <img src="../assets/faultier.jpg" alt="Faultier 1">
+          <img src="../assets/faultier.jpg" alt="Faultier 2">
+          <img src="../assets/faultier.jpg" alt="Faultier 3">
+        </div>
+
+        <blockquote style="margin:0.8rem 0;padding:0.6rem;border-left:4px solid #1f8a70;background:#f8fffb">
+          „Gelassenheit als Anpassung an knappe Nahrung.“
+        </blockquote>
+
+        <p style="margin-top:0.8rem">Weiterführende Links: <a href="https://de.wikipedia.org/wiki/Faultier" target="_blank" rel="noopener">Wikipedia — Faultier</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div>Zurück: <a href="../index.html">Alle Tiere</a></div>
+      <small>© <span id="year"></span> Tierwelt</small>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
